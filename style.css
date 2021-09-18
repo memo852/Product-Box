@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: #022548;
+  }
+  .product {
+    position: relative;
+    width: 450px;
+    height: 700px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 0px 10px;
+    border-radius: 10px;
+  }
+  .product-img img{
+      width: 390px;
+      height: 500px;
+      z-index: 1;
+      object-fit: contain;
+    
+  }
+  .like {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: right;
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 5px 5px 12px #b0b0b0, -5px -5px 12px #ffffff;
+  }
+  .like .heart {
+    font-size: 30px;
+    z-index: 1000;
+    position: absolute;
+    color: #000;
+    left: 10px;
+    top: 12px;
+  }
+  .like .heart:hover {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .product-name {
+    width: 100%;
+    height: 50px;
+  }
+  .product-about {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about {
+    width: 167px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  .product-rating {
+    padding: 15px 5px;
+    color: #e9d200;
+  }
+  
+  .product-colors {
+    padding: 15px 5px;
+  }
+  .product-colors i {
+    cursor: pointer;
+  }
+  .night-green {
+    color: #006666;
+  }
+  .silver {
+    color: #c0c0c0;
+  }
+  .space-grey {
+    color: #110022;
+  }
+  .gold {
+    color: #d4af37;
+  }
+  .product-price {
+    padding: 10px 5px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .btn {
+    width: 100%;
+    margin-top: 20px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #022548;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    color: #ffffff;
+  }
